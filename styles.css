@@ -7,3 +7,33 @@
 html {
     font-family: "Poppins", sans-serif;
 }
+
+h1 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+p {
+    color: #6C727F;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+#email::placeholder {
+    color: #6C727F;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+button {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+form > p {
+    color: #6C727F;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
