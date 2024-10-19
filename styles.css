@@ -18,6 +18,7 @@ body {
     height: 100vh;
 
     background-color: #F9FAFB;
+    
 }
 
 .content {
@@ -29,6 +30,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+
+    border: 1px solid;
 }
 
 form {
@@ -37,6 +40,9 @@ form {
     align-items: center;
 
     background-color: #FFFFFF;
+
+    border: 1px solid red;
+
 }
 
 h1 {
@@ -51,11 +57,26 @@ p {
     font-size: 1.25rem;
 }
 
-#email::placeholder {
+#email {
+    width: 90%;
+    height: 3.5em;
+    
+    outline: none; /*Avoids change color when clicked*/
+    border: none; /*removes default border*/
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+
+    background-color: #F9FAFB;
+}
+
+#email, #email::placeholder {
     color: #6C727F;
     font-weight: 500;
     font-size: 1rem;
+    text-align: center;
 }
+
+/*TODO: #email:hover and #email:focus*/
 
 button {
     color: #FFFFFF;
