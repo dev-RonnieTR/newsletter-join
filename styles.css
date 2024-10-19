@@ -8,6 +8,12 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     color: #000000;
     font-weight: 600;
