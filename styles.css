@@ -45,9 +45,11 @@ body {
 form {
     width: 100%;
     max-width: 550px;
+    min-height: 200px;
     
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 
     background-color: #FFFFFF;
