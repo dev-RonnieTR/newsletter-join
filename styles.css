@@ -20,10 +20,12 @@ body {
 .content {
     width: 95%;
     max-width: 750px;
+    min-height: 35%;
 
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 form {
