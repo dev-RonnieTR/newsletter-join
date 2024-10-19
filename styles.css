@@ -13,6 +13,7 @@ html {
     --input-width: 90%;
     --input-height: 3.5em;
     --input-font-size: 1rem;
+    --input-border-radius: 10px;
 }
 
 body {
@@ -71,7 +72,7 @@ p {
     outline: none; /*Avoids change color when clicked*/
     border: none; /*removes default border*/
     border: 1px solid #E5E7EB;
-    border-radius: 10px;
+    border-radius: var(--input-border-radius);
 
     background-color: #F9FAFB;
 }
@@ -92,7 +93,13 @@ button {
 
     width: var(--input-width);
     height: var(--input-height);
+
+    border: none; /* removes default borders */
+    border-radius: var(--input-border-radius);
+    background-color: #3662E3;
 }
+
+/* TODO: button:active and button:hover */
 
 form > p {
     color: #6C727F;
